@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> calculater </title>
+</head>
+<body>
+<div class="body"> 
+  <form name="form1">
+        <input id="display" readonly> 
+  </form>
+
+<div id="first_row">
+     
+         <input id="clear" type="button" value="c" onclick="form1.display.value = '' ">
+        <input id="reminder" type="button" value="%" onclick="insert('%')"> 
+        <input id="backspace" type="button" value="&#9003" onclick="backspace()">
+         <input id="divide" type="button" value="/" onclick="insert('/')"> 
+         
+    
+      
+    
+        <input id="seven" type="button" value="7" onclick="insert(7)"> 
+         <input id="eight" type="button" value="8" onclick="insert(8)"> 
+        <input id="nine" type="button" value="9" onclick="insert(9)">  
+        <input id="multiply" type="button" value="x" onclick="insert('*')">
+          
+    
+
+    
+         <input id="four" type="button" value="4" onclick="insert(4)"> 
+        <input id="five" type="button" value="5" onclick="insert(5)">  
+         <input id="six" type="button" value="6" onclick="insert(6)">  
+         <input id="sub" type="button" value="-" onclick="insert('-')">
+         
+    
+
+    
+         <input id="one" type="button" value="1" onclick="insert(1)">  
+         <input id="two" type="button" value="2" onclick="insert(2)">  
+         <input id="three" type="button" value="3" onclick="insert(3)">  
+         <input id="add" type="button" value="+" onclick="insert('+')">
+          
+
+       
+         <input id="zero" type="button" value="0" onclick="insert(0)">
+         <input id="pointer" type="button" value="." onclick="insert('.')">
+         <input id="total" type="button" value="=" onclick="equal()"> 
+         
+</div>
+
+</div>
+    <link rel="stylesheet" href="calculater.css">
+    <script src="calculater.js"> </script>
+</body>
+</html>

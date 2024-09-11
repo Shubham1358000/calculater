@@ -1,0 +1,449 @@
+.body{
+    width: 620px;
+    height: 930px;
+    border: 5px rgb(84, 72, 72) solid;
+    text-align: center;
+    /* display: flex; */
+    margin-top: 300px;
+    margin-left: 200px;
+    background-color: black;
+    box-shadow:15px 15px 15px ;
+    border-radius: 4px; 
+    /* flex-wrap: row;    */
+}
+
+#display{
+    width: 610px;
+    height: 200px;
+    border: 2px solid rgb(108, 100, 100);
+    text-align: center;
+    cursor: auto;
+    background-color: gray;
+    opacity:0.5 ;
+    border: 5px solid rgb(212, 209, 209);
+    font-size: 50px;
+    margin-right: 5px;
+    color: white;
+    border-radius: 5px;
+}
+
+.first_line{
+    height: 635px;
+    width: 600px;
+    display: flex;
+   margin-top: 12px;
+}
+
+#clear{
+ width: 140px;
+ height: 140px;
+ border-radius: 50%;
+ border: 5px black solid;
+ margin-right: 5px;
+ text-align: center;
+ background-color: orange;
+ font-size: 50px;
+ cursor: pointer;
+ align-content: center;
+ 
+}
+
+#clear:hover{
+    opacity: 0.8;
+    background-color: rgb(181, 127, 18);
+    transition-duration: infinite;
+   transition-delay: 0.1s;
+   color: white;
+   font-size: 65px; 
+   font-weight: 500px;
+}
+
+#reminder{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 5px black solid;
+    margin-right: 5px;
+    text-align: center;
+    background-color: orange;
+    font-size: 50px;
+    cursor: pointer;
+    align-content: center;
+   }
+
+#reminder:hover{
+    opacity: 0.5;
+    background-color: rgb(255, 171, 3);
+    transition-duration: infinite;
+   transition-delay: 0.2s;
+   color: white;
+   
+}
+
+#divide{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 5px black solid;
+    margin-right: 5px;
+    text-align: center;
+    background-color: orange;
+    font-size: 50px;
+    cursor: pointer;
+    align-content: center;
+   }
+
+#divide:hover{
+    opacity: 0.5;
+    background-color: rgb(255, 171, 3);
+    transition-duration: infinite;
+   transition-delay: 0.1s;
+   color: white;
+   
+}
+
+#multiply{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 5px black solid;
+    margin-right: 5px;
+    text-align: center;
+    background-color: orange;
+    font-size: 50px;
+    cursor: pointer;
+    align-content: center;
+   }
+
+#multiply:hover{
+    opacity: 0.5;
+    background-color: rgb(255, 171, 3);
+    transition-duration: infinite;
+   transition-delay: 0.1s;
+   color: white;
+   
+}
+
+
+
+
+#seven{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 5px black solid;
+    margin-right: 5px;
+    text-align: center;
+    background-color: orange;
+    font-size: 50px;
+    cursor: pointer;
+    align-content: center;
+   }
+
+#seven:hover{
+    opacity: 0.5;
+    background-color: rgb(255, 171, 3);
+    transition-duration: infinite;
+   transition-delay: 0.1s;
+   color: white;
+   
+}
+
+#eight{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 5px black solid;
+    margin-right: 5px;
+    text-align: center;
+    background-color: orange;
+    font-size: 50px;
+    cursor: pointer;
+    align-content: center;
+   }
+
+#eight:hover{
+    opacity: 0.5;
+    background-color: rgb(255, 171, 3);
+    transition-duration: infinite;
+   transition-delay: 0.1s;
+   color: white;
+}
+
+#nine{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 5px black solid;
+    margin-right: 5px;
+    text-align: center;
+    background-color: orange;
+    font-size: 50px;
+    cursor: pointer;
+    align-content: center;
+   }
+
+#nine:hover{
+    opacity: 0.5;
+    background-color: rgb(255, 171, 3);
+    transition-duration: infinite;
+   transition-delay: 0.1s;
+   color: white;
+}
+
+#sub{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 5px black solid;
+    margin-right: 5px;
+    text-align: center;
+    background-color: orange;
+    font-size: 50px;
+    cursor: pointer;
+    align-content: center;
+   }
+
+#sub:hover{
+    opacity: 0.5;
+    background-color: rgb(255, 171, 3);
+    transition-duration: infinite;
+   transition-delay: 0.1s;
+   color: white;
+}
+
+
+#four{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 5px black solid;
+    margin-right: 5px;
+    text-align: center;
+    background-color: orange;
+    font-size: 50px;
+    cursor: pointer;
+    align-content: center;
+   }
+#four:hover{
+    opacity: 0.5;
+    background-color: rgb(255, 171, 3);
+    transition-duration: infinite;
+   transition-delay: 0.1s;
+   color: white;
+}
+
+#five{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 5px black solid;
+    margin-right: 5px;
+    text-align: center;
+    background-color: orange;
+    font-size: 50px;
+    cursor: pointer;
+    align-content: center;
+   }
+
+#five:hover{
+    opacity: 0.5;
+    background-color: rgb(255, 171, 3);
+    transition-duration: infinite;
+   transition-delay: 0.1s;
+   color: white;
+}
+
+#six{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 5px black solid;
+    margin-right: 5px;
+    text-align: center;
+    background-color: orange;
+    font-size: 50px;
+    cursor: pointer;
+    align-content: center;
+   }
+
+#six:hover{
+    opacity: 0.5;
+    background-color: rgb(255, 171, 3);
+    transition-duration: infinite;
+   transition-delay: 0.1s;
+   color: white;
+}
+
+#add{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 5px black solid;
+    margin-right: 5px;
+    text-align: center;
+    background-color: orange;
+    font-size: 50px;
+    cursor: pointer;
+    align-content: center;
+   }
+  
+#add:hover{
+    opacity: 0.5;
+    background-color: rgb(255, 171, 3);
+    transition-duration: infinite;
+   transition-delay: 0.1s;
+   color: white;
+}
+
+
+
+#one{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 5px black solid;
+    margin-right: 5px;
+    text-align: center;
+    background-color: orange;
+    font-size: 50px;
+    cursor: pointer;
+    align-content: center;
+   }
+
+#one:hover{
+    opacity: 0.5;
+    background-color: rgb(255, 171, 3);
+    transition-duration: infinite;
+   transition-delay: 0.1s;
+   color: white;
+}
+
+#two{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 5px black solid;
+    margin-right: 5px;
+    text-align: center;
+    background-color: orange;
+    font-size: 50px;
+    cursor: pointer;
+    align-content: center;
+   }
+
+#two:hover{
+    opacity: 0.5;
+    background-color: rgb(255, 171, 3);
+    transition-duration: infinite;
+   transition-delay: 0.1s;
+   color: white;
+}
+
+#three{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 5px black solid;
+    margin-right: 5px;
+    text-align: center;
+    background-color: orange;
+    font-size: 50px;
+    cursor: pointer;
+    align-content: center;
+   }
+
+#three:hover{
+    opacity: 0.5;
+    background-color: rgb(255, 171, 3);
+    transition-duration: infinite;
+   transition-delay: 0.1s;
+   color: white;
+}
+
+#total{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 5px black solid;
+    margin-right: -130px;
+    text-align: center;
+    background-color: orange;
+    font-size: 70px;
+    cursor: pointer;
+    align-content: center;
+
+   }
+
+#total:hover{
+    opacity: 0.5;
+    background-color: rgb(255, 171, 3);
+    transition-duration: infinite;
+   transition-delay: 0.1s;
+   color: white;
+}
+
+#zero{
+    
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        border: 5px black solid;
+        margin-right: 5px;
+        text-align: center;
+        background-color: orange;
+        font-size: 50px;
+        cursor: pointer;
+        align-content: center;
+
+}
+
+#zero:hover{
+    opacity: 0.5;
+    background-color: rgb(255, 171, 3);
+    transition-duration: infinite;
+   transition-delay: 0.1s;
+   color: white;
+}
+
+#pointer{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 5px black solid;
+    margin-right: 5px;
+    text-align: center;
+    background-color: orange;
+    font-size: 50px;
+    cursor: pointer;
+    align-content: center;
+   }
+
+#pointer:hover{
+    opacity: 0.5;
+    background-color: rgb(255, 171, 3);
+    transition-duration: infinite;
+   transition-delay: 0.1s;
+   color: white;
+}
+
+   #backspace{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 5px black solid;
+    margin-right: 5px;
+    text-align: center;
+    background-color: orange;
+    font-size: 50px;
+    cursor: pointer;
+    align-content: center;
+   }
+
+#backspace:hover{
+    opacity: 0.5;
+    background-color: rgb(255, 171, 3);
+    transition-duration: infinite;
+   transition-delay: 0.1s;
+   color: white;
+}
