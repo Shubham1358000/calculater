@@ -56,6 +56,7 @@
    color: white;
    font-size: 65px; 
    font-weight: 500px;
+   function-timing:ease;
 }
 
 #reminder{
@@ -77,6 +78,7 @@
     transition-duration: infinite;
    transition-delay: 0.2s;
    color: white;
+   function-timing:ease;
    
 }
 
@@ -99,6 +101,7 @@
     transition-duration: infinite;
    transition-delay: 0.1s;
    color: white;
+   function-timing:ease;
    
 }
 
@@ -121,7 +124,7 @@
     transition-duration: infinite;
    transition-delay: 0.1s;
    color: white;
-   
+   function-timing:ease;
 }
 
 
@@ -146,7 +149,7 @@
     transition-duration: infinite;
    transition-delay: 0.1s;
    color: white;
-   
+   function-timing:ease;
 }
 
 #eight{
@@ -168,6 +171,7 @@
     transition-duration: infinite;
    transition-delay: 0.1s;
    color: white;
+   function-timing:ease;
 }
 
 #nine{
@@ -189,6 +193,7 @@
     transition-duration: infinite;
    transition-delay: 0.1s;
    color: white;
+   function-timing:ease;
 }
 
 #sub{
@@ -210,6 +215,7 @@
     transition-duration: infinite;
    transition-delay: 0.1s;
    color: white;
+   function-timing:ease;
 }
 
 
@@ -224,6 +230,7 @@
     font-size: 50px;
     cursor: pointer;
     align-content: center;
+    
    }
 #four:hover{
     opacity: 0.5;
@@ -231,6 +238,7 @@
     transition-duration: infinite;
    transition-delay: 0.1s;
    color: white;
+   function-timing:ease;
 }
 
 #five{
@@ -252,6 +260,7 @@
     transition-duration: infinite;
    transition-delay: 0.1s;
    color: white;
+  function-timing:ease;
 }
 
 #six{
@@ -273,6 +282,7 @@
     transition-duration: infinite;
    transition-delay: 0.1s;
    color: white;
+   function-timing:ease;
 }
 
 #add{
@@ -294,6 +304,7 @@
     transition-duration: infinite;
    transition-delay: 0.1s;
    color: white;
+   function-timing:ease;
 }
 
 
@@ -317,6 +328,7 @@
     transition-duration: infinite;
    transition-delay: 0.1s;
    color: white;
+   function-timing:ease;
 }
 
 #two{
@@ -338,6 +350,8 @@
     transition-duration: infinite;
    transition-delay: 0.1s;
    color: white;
+   function-timing:ease;
+
 }
 
 #three{
@@ -359,6 +373,8 @@
     transition-duration: infinite;
    transition-delay: 0.1s;
    color: white;
+   function-timing:ease;
+  
 }
 
 #total{
@@ -381,6 +397,7 @@
     transition-duration: infinite;
    transition-delay: 0.1s;
    color: white;
+   function-timing:ease;
 }
 
 #zero{
@@ -404,6 +421,7 @@
     transition-duration: infinite;
    transition-delay: 0.1s;
    color: white;
+   function-timing:ease;
 }
 
 #pointer{
@@ -425,6 +443,7 @@
     transition-duration: infinite;
    transition-delay: 0.1s;
    color: white;
+   function-timing:ease;
 }
 
    #backspace{
@@ -446,4 +465,5 @@
     transition-duration: infinite;
    transition-delay: 0.1s;
    color: white;
+   function-timing:ease;
 }
